@@ -63,4 +63,4 @@ Within the vreply function, the vsnprintf function is used to format a string an
 Immediately following the vulnerable vsnprintf function, there is a call to printf. This provides an opportunity for an attacker to overwrite its Global Offset Table (GOT) entry and execute their own code. In this project, we demonstrate running an exit shellcode, but theoretically, it can be any code of the attacker's choice.
 
 ## Note 
-This vulnerability is well-known and serves as an educational example. It's essential to use this knowledge responsibly and ethically when addressing vulnerabilities in real-world applications.
+This vulnerability is old and well-known and serves as an educational example.
